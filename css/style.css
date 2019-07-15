@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html,body {
+    height: 100%;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -34,6 +37,7 @@ nav{
 }
 .burger{
     display: none;
+    cursor: pointer;
 }
 .burger div{
     width: 25px;
@@ -47,12 +51,12 @@ nav{
     width: 60%;
   }
 }
+
 @media screen and (max-width:768px){
     body{
         overflow-x: hidden;
 }
-}
-@media screen and (max-width:768px){
+    
     .nav-links{
         position: absolute;
         right: 0px;
@@ -64,7 +68,41 @@ nav{
         align-items: center;
         width: 30%;
         transform: translateX(100%);
+        transition: transform 0.5s ease-in;
 }
+.nav-links li{
+    opacity: 0;
+}
+.burger{
+    display: block;
+}
+}
+.nav-active{
+    transform: translateX(0%);
 }
  
-
+/* container styling start bellow this line */
+#container{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/image6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main {
+    overflow: auto;
+    padding-bottom: 50px;
+}
+#footer{
+    background-color:  #5D4954;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear: both;
+}
+#foot{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(226, 226, 226);
+}
