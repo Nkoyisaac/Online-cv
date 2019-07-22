@@ -60,6 +60,10 @@ nav{
     -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
    }
+   .nav-links.close{
+       clip-path: none;
+       -webkit-clip-path: none;
+   }
    .nav-links li{
        opacity: 0;
    }
@@ -104,6 +108,22 @@ nav{
     font-size: 40px;
 
 }
+.resume{
+    text-align: center;
+    
+}
+.resume button{
+    background: #5D4954;
+    font-size: 30px;
+    color:  rgb(226, 226, 226);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.resume button:hover{
+    cursor: pointer;
+    border: outset;
+}
 /* this is the image id style bellow this line */
 #img{
     display: block;
@@ -118,27 +138,80 @@ nav{
     font-size: 30px;
     margin: auto;
     width: 80%;
+    height: 50vh;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
+    vertical-align: middle;
+    display: table-cell;
 }
 .images{
-    width: 80%;
+    width: 100%;
+    vertical-align: middle;
     margin: auto;
-    font-family: 'Poppins', sans-serif;
     font-size: 30px;
+    
+}
+#title{
+    padding-left: 15px;
 }
 #skills{
     top: 80px;
-    height: 200px;
-    align-items: center;
+    height: 50vh;
     margin: auto;
     text-align: center;
+    vertical-align: middle;
+
 }
+/* CSS PICTURE ANIMATION START HERE */
+#img1{
+    -webkit-transition: all 0.4s ease-out;
+       -moz-transition: all 0.4s ease-out;
+         -o-transition: all 0.4s ease-out;
+            transition: all 0.4s ease-out;
+    margin: 10px;
+}
+
+#img1:hover{
+    -webkit-transform: rotate(380deg); /*safari 3.1+, chrome*/
+       -moz-transform: rotate(380deg); /*firefox 3.5-15*/
+        -ms-transform: rotate(380deg); /*IE9+ */
+         -o-transform: rotate(380deg); /*Opera 10.5-12.00*/
+            transform: rotate(380deg); /*firefox !6+, Opera 12.50+ */
+}
+
+#img2{
+    -webkit-transition: all 0.4s ease-out;
+       -moz-transition: all 0.4s ease-out;
+         -o-transition: all 0.4s ease-out;
+            transition: all 0.4s ease-out;
+    margin: 10px;
+}
+#img2:hover{
+    -webkit-transform: rotate(380deg); /*safari 3.1+, chrome*/
+       -moz-transform: rotate(380deg); /*firefox 3.5-15*/
+        -ms-transform: rotate(380deg); /*IE9+ */
+         -o-transform: rotate(380deg); /*Opera 10.5-12.00*/
+            transform: rotate(380deg); /*firefox !6+, Opera 12.50+ */
+}
+#img3{
+    -webkit-transition: all 0.4s ease-out;
+       -moz-transition: all 0.4s ease-out;
+         -o-transition: all 0.4s ease-out;
+            transition: all 0.4s ease-out;
+    margin: 10px;
+}
+#img3:hover{
+    -webkit-transform: rotate(380deg); /*safari 3.1+, chrome*/
+       -moz-transform: rotate(380deg); /*firefox 3.5-15*/
+        -ms-transform: rotate(380deg); /*IE9+ */
+         -o-transform: rotate(380deg); /*Opera 10.5-12.00*/
+            transform: rotate(380deg); /*firefox !6+, Opera 12.50+ */
+}
+/* THIS THE END OF THE CSS PICTURE ANIMATION */
 #footer{
     background-color:  #5D4954;
     position: fixed;
     height: 50px;
-    margin-top: -50px;
     bottom: 0;
     width: 100%;
     

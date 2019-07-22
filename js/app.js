@@ -1,6 +1,7 @@
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 const links = document.querySelectorAll('.nav-links li');
+const linksOpen = document.querySelectorAll('.nav-links.open')
 
 hamburger.addEventListener("click", () =>{
     navLinks.classList.toggle("open");
