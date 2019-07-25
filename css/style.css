@@ -208,6 +208,15 @@ nav{
             transform: rotate(380deg); /*firefox !6+, Opera 12.50+ */
 }
 /* THIS THE END OF THE CSS PICTURE ANIMATION */
+.education{
+    height: 40vh;
+    
+}
+.education-blocks{
+    display: flex;
+    margin: auto;
+}
+
 #footer{
     background-color:  #5D4954;
     position: fixed;
@@ -216,6 +225,7 @@ nav{
     width: 100%;
     
 }
+
 @media screen and (max-width:768px){
     #container{
         height: 100%;
