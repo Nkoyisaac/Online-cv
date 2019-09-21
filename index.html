@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Isaac CV</title>
+    <!-- link to the css file -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!-- google font link -->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <!-- add of bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
  
 
 </head>
@@ -39,7 +44,7 @@
                          
                      </article>
                      <article>
-                         <img id="img" src="images/isy.JPG" alt="my picture">
+                         <img id="img" src="images/isy.JPG" alt="Isaac">
                      </article>
                      <div class="resume">
                             <a href="pdf/cvisaac.pdf" target="_blank" download><button>download resume</button></a>
@@ -69,26 +74,39 @@
     </section>
     <section class="education">
             <h1>EDUCATION</h1>
-            <div class="education-blocks">
-                <div class="education-block1">
-                <p> <b>Year</b>:2017</p>
-                <p> <b>Qualification</b>:  TV Commercial Training</p>
-                <p><b>Institution</b>:Light Camera Action</p>
+            <div class="container">
+            <div class=" row education-blocks">
+                <div class="col education-block1">
+                    <!-- this is a card -->
+                        <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                        <p> <b>Year</b>:2017</p>
+                                        <p> <b>Qualification</b>:  TV Commercial Training</p>
+                                        <p><b>Institution</b>:Light Camera Action</p>
+                                </div>
+                              </div>
                 </div>
-                <div class="education-block2">
+                <div class="col education-block2">
                 <p> <b>Year</b>:2017</p>
                 <p> <b>Qualification</b>: Barista Level 1</p>
                 <p><b>Institution</b>: Truth Coffee Roasting</p>
                 </div>
-                <div class="education-block3">
+                <div class="col education-block3">
                 <p> <b>Year</b>: 2013</p>
                 <p> <b>Qualification</b>: High school Matric
                 <p><b>Institution</b>: College Bukasa Nsenda
-
                 </div>
             </div>
+        </div>
         
         
+    </section>
+    <section>
+        <h1>Contacts</h1>
+        <ul>
+            <li></li>
+        </ul>
     </section>
     <footer id="footer">
              <p id="foot">&#169 designed by isy_chaud</p>

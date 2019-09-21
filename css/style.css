@@ -5,11 +5,16 @@
 }
 html,body {
     height: 100%;
+    background: #000000;
 }
 nav{
     height: 10vh;
     background: #5D4954;
     font-family: 'Poppins', sans-serif;
+    position: sticky;
+    top: 0;
+    bottom: 'body';
+    opacity: 0.7;
 }
 .nav-links{
     display: flex;
@@ -143,6 +148,7 @@ nav{
     font-family: 'Poppins', sans-serif;
     vertical-align: middle;
     display: table-cell;
+    color: #ffffff;
 }
 .images{
     width: 100%;
@@ -153,13 +159,14 @@ nav{
 }
 #title{
     padding-left: 15px;
+    color: #ffffff;
 }
 #skills{
     top: 80px;
     height: 50vh;
     margin: auto;
     text-align: center;
-    vertical-align: middle;
+    color: #ffffff;
 
 }
 /* CSS PICTURE ANIMATION START HERE */
@@ -209,12 +216,14 @@ nav{
 }
 /* THIS THE END OF THE CSS PICTURE ANIMATION */
 .education{
-    height: 40vh;
+    /* height: 40vh; */
+    color: #ffffff;
     
 }
 .education-blocks{
     display: flex;
-    margin: auto;
+    margin: 0 auto;
+    
 }
 
 #footer{
@@ -223,6 +232,7 @@ nav{
     height: 50px;
     bottom: 0;
     width: 100%;
+    opacity: o.7;
     
 }
 
