@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Isaac CV</title>
     <!-- link to the css file -->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <!-- google font link -->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <!-- add of bootstrap -->
@@ -22,7 +22,7 @@
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="">Education</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contacts</a></li>
         </ul>
@@ -47,7 +47,7 @@
                          <img id="img" src="images/isy.JPG" alt="Isaac">
                      </article>
                      <div class="resume">
-                            <a href="pdf/cvisaac.pdf" target="_blank" download><button>download resume</button></a>
+                            <a href="pdf/cvisaac.pdf" target="_blank" download><button>download pdf cv</button></a>
 
                      </div>
                      
@@ -57,45 +57,71 @@
     </section>
     <section>
             <article class="about" id="about">
-                <h1><u>About me</u></h1>
+                <h1>About me</h1><hr>
                     <p>I am an hardworker full of dedication to make dreams come reality,
                         able to handle multiple task on a dayly basis and always use a creative approach to solve different types of 
                         problems, energetic and eager to learn new skills</p>
                 </article>
         <div  class="images">
-            <h1 id="title"><u>Skills</u></h1>
+            <h1 id="title">Skills</h1><hr>
             <div id="skills">
-                    <img id="img1" src="images/HTML.svg" alt="" width="100px" height="100px">
+                    <img id="img1" src="images/html.png" alt="" width="100px" height="100px">
                     <img id="img2" src="images/css-logo.png" alt="" width="100px" height="100px">
                     <img id="img3" src="images/js.png" alt="" width="100px" height="100px">
+                    <img id="img3" src="images/php.png" alt="" width="100px" height="100px">
+                    <img id="img3" src="images/mysql.jpg" alt="" width="100px" height="100px">
+
             </div>
             
         </div>
     </section>
-    <section class="education">
-            <h1>EDUCATION</h1>
+    <section class="education" id="education">
+            <h1>EDUCATION</h1><hr>
             <div class="container">
             <div class=" row education-blocks">
                 <div class="col education-block1">
                     <!-- this is a card -->
                         <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="images/codespace.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                        <p> <b>Year</b>:2017</p>
-                                        <p> <b>Qualification</b>:  TV Commercial Training</p>
-                                        <p><b>Institution</b>:Light Camera Action</p>
+                                        <p> <b>Year</b>: 2019</p>
+                                        <p> <b>Qualification</b>: Junior web dev</p>
+                                        <p><b>Institution</b>: codespace </p>
                                 </div>
-                              </div>
+                        </div>
                 </div>
                 <div class="col education-block2">
-                <p> <b>Year</b>:2017</p>
-                <p> <b>Qualification</b>: Barista Level 1</p>
-                <p><b>Institution</b>: Truth Coffee Roasting</p>
+                        <div class="card" style="width: 18rem;">
+                                <img src="images/barista.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                        <p> <b>Year</b>:2017</p>
+                                        <p> <b>Qualification</b>: Barista Level 1</p>
+                                        <p><b>Institution</b>: Truth Coffee Roasting</p>
+                                </div>
+                              </div>
+                
                 </div>
                 <div class="col education-block3">
-                <p> <b>Year</b>: 2013</p>
-                <p> <b>Qualification</b>: High school Matric
-                <p><b>Institution</b>: College Bukasa Nsenda
+                        <div class="card" style="width: 18rem;">
+                                <img src="images/LCA.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                        <p> <b>Year</b>:2017</p>
+                                        <p> <b>Qualification</b>:  TVC Training</p>
+                                        <p><b>Institution</b>:Light Camera Action</p>
+                                </div>   
+                        </div>
+               
+                </div>
+                <div class="col education-block4">
+                        <div class="card" style="width: 18rem;margin: 0 auto; ">
+                                <img src="images/cbn.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                        <p> <b>Year</b>: 2013</p>
+                                        <p> <b>Qualification</b>: High school Matric </p>
+                                        <p><b>Institution</b>: College Bukasa Nsenda </p>
+                                </div>
+                        </div>
+               
                 </div>
             </div>
         </div>
@@ -103,13 +129,36 @@
         
     </section>
     <section>
-        <h1>Contacts</h1>
-        <ul>
-            <li></li>
-        </ul>
+        <h1>Projects</h1>
+        <hr>
+        <div class="container " id="projects">
+            <div class="row ">
+              <div class="col">
+                  <img src="images/hotelbooking (2).png" alt="" id="size">
+                  <p style="text-align: center;"><a href="">hotelbooking</a></p>
+              </div>
+              <div class="col">
+                  <img src="images/quiz (2).png" alt="" id="size">
+                  <p style="text-align: center;"><a href="">quiz</a></p>
+
+              </div>
+              <!-- <div class="w-100"></div> -->
+              <div class="col">
+                  <img src="images/store (2).png" alt="" id="size">
+                  <p style="text-align: center;"><a href="">Onlinestore</a></p>
+
+              </div>
+              <div class="col">
+                  <img src="images/todo (3).png" alt="" id="size">
+                  <p style="text-align: center;"><a href="">to do app</a></p>
+
+              </div>
+            </div>
+          </div>
     </section>
+
     <footer id="footer">
-             <p id="foot">&#169 designed by isy_chaud</p>
+             <p id="foot">&#169 designed by Isaac-Nkoy</p>
     </footer>
    <script src="js/app.js"></script>
 </body>
